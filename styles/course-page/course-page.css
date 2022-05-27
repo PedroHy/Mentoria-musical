@@ -1,0 +1,68 @@
+main{
+    background: url("../../res/jpg/background.jpg");
+    color: white;
+}
+section#capa{
+    margin: 0 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+
+section#capa img{
+    border-radius: 1rem;
+}
+
+div#infos{
+    padding: 5rem;
+}
+
+div#infos h1{
+    font-size: 5rem;
+    margin-bottom: .5rem;
+}
+
+div#infos p{
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    height: auto;
+}
+
+div#button{
+    padding-top: 2rem;
+}
+
+section#aulas{
+    padding: 5rem;
+    margin: 0 5rem;
+}
+
+div#title{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+div#list-aulas{
+    margin: 1rem 0;
+}
+
+div.card-aula{
+    background: rgba(2, 2, 2, 0.555);
+    padding: 2rem;
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.562);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.card-aula:hover{
+    box-shadow: 0rem 0rem 0.5rem rgba(4, 35, 136, 0.562);
+}
+
+div.card-aula h1{
+    font-size: 2rem;
+}
+

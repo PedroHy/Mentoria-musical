@@ -1,0 +1,45 @@
+body{
+    background: url("../../res/jpg/background.jpg");
+    padding: 10rem;
+}
+
+main{
+    margin: auto;
+    padding: 10rem;
+    background: rgb(29, 29, 29);
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.342);
+    height: 30rem;
+    width: 50rem;
+    text-align: center;
+}
+
+main:hover{
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.342);
+    height: 31rem;
+    width: 51rem;
+}
+
+div#logo{
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+img#img{
+    height: 10rem;
+    width: 10rem;
+}
+
+div#dados{
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+input#text{
+    height: 2.5rem;
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}

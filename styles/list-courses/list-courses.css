@@ -1,0 +1,42 @@
+main{
+    background: url("../../res/jpg/background.jpg");
+    padding: 2rem;
+}
+
+section.item-course{
+    background: rgba(19, 19, 19, 0.664);
+    color: white;
+    margin: 0rem 10rem 2rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.664);
+}
+
+section.item-course:hover{
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.664);
+}
+
+div.item-course-img > img{
+    height: 25rem;
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+div.item-course-infos{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div.item-course-infos > h1{
+    font-size: 5rem;
+}
+
+div.item-course-infos > p{
+    font-size: 1.5rem;
+    height: 8rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+

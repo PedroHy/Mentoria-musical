@@ -1,0 +1,58 @@
+@media only screen and (min-width: 340px) and (max-width: 700px){
+
+    section#capa{
+        margin: 0 5rem;
+        padding-top: 5rem;
+    }
+
+    img#capa-curso{
+        margin: auto;
+        height: 15rem;
+        width: 20rem;
+    }
+    
+    
+    div#infos h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    div#infos p{
+        font-size: 1.5rem;
+        padding-left: .5rem;
+        height: auto;
+    }
+    
+    div#button{
+        padding-top: 1rem;
+    }
+    
+    section#aulas{
+        padding: 2rem;
+        margin: 0 5rem;
+    }
+    
+    div#title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    div#list-aulas{
+        margin: 1rem 0;
+    }
+    
+    div.card-aula{
+        padding: 1rem;
+        width: 80%;
+        margin-bottom: 1rem;
+    
+    }
+    
+    div.card-aula:hover{
+        box-shadow: 0rem 0rem 0.5rem rgba(4, 35, 136, 0.562);
+    }
+    
+    div.card-aula h1{
+        font-size: 1.5rem;
+    }
+}

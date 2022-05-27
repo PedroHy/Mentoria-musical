@@ -1,0 +1,196 @@
+main{
+    min-width: 100vw;
+}
+section#welcome{
+    background: url("../../res/jpg/piano-part.jpg");
+    background-size: cover;
+    
+}
+
+div#overlay{
+    background: rgba(0, 0, 0, 0.678);
+    height: 30rem;
+}
+
+div#title-welcome{
+    margin-left: 10%;
+    color: white;
+    font-size: small;
+    padding-top: 10rem;
+    font-size: 1.5rem;
+}
+
+div>h1{
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+section#list-courses{
+    color: white;
+    background: black;
+    padding: 5rem 0;
+}
+
+div#cards{
+    margin: 0 10%;
+}
+
+div.titles{
+    color: white;
+    margin: 0rem 10rem 3rem 10rem;
+    text-align: center;
+}
+
+div.list-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 1% 2% 0;
+}
+
+div.course-card{
+    margin: auto;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.342);
+    height: 31rem;
+    width: 32rem;
+    text-align: center;
+}
+
+div.course-card > img{
+    height: 20rem;
+    width: 30rem;
+    border-radius: 10px;
+}
+
+div.course-card > h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+div.course-card:hover{
+    height: 32rem;
+    width: 33rem;
+    box-shadow: 0rem 0rem 1rem rgba(17, 98, 190, 0.295);
+}
+
+div.overlay-card{
+    height: 31rem;
+    width: 32rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.623);
+    text-align: center;
+}
+
+div.overlay-card:hover{
+    height: 32rem;
+    width: 33rem;    
+}
+
+div.info-card{
+    padding-top: 20rem;
+}
+
+div#violao{
+    background: url("../../res/jpg/violo-tec.jpg");
+    background-size: auto;
+    background-position: -16rem;
+}
+
+div#teclado{
+    background: url("../../res/jpg/teclado.jpg");
+    background-size: auto;
+}
+
+div#teoria{
+    background: url("../../res/jpg/teoria.jpg");
+    background-size: auto;
+    background-position: -8rem;
+
+}
+
+div#adoracao{
+    background: url("../../res/jpg/adoracao.jpg");
+    background-size: auto;
+    background-position: -14rem;
+}
+
+div#sonoplastia{
+    background: url("../../res/jpg/mesa-de-som.jpg");
+    background-size: auto;
+    background-position: -16rem;
+}
+
+div#improviso{
+    background: url("../../res/jpg/improviso.jpg");
+    background-size: auto;
+    background-position: 0rem;
+}
+
+section#infos{
+    padding: 2.5rem 0;
+    height: auto;
+    background: rgb(51, 132, 236);
+    align-items: center;
+
+}
+
+div.phrases{
+    margin: 0 10%;
+    padding: 1rem;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
+div.phrase{
+    font-size: 6rem;
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+div.img{
+    width: 30%;
+    
+
+}
+
+img.img-phrases{
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+
+section#instructors{
+    padding: 5rem 0;
+    background: black;
+   
+}
+
+div#list-instructors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10rem 0 10rem;
+}
+
+div.instructor{
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 2rem;
+}
+
+div.instructor > h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+div.instructor > img{
+    height: 15rem;
+    width: 15rem;
+}
+
+div.instructor > img:hover{
+    height: 16rem;
+    width: 16rem;
+}

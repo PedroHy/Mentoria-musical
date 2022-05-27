@@ -1,0 +1,22 @@
+@media only screen and (min-width: 340px) and (max-width: 700px){
+   
+    section.item-course{
+        margin: 0rem 2rem 1rem 2rem;
+    }
+ 
+    
+    div.item-course-img > img{
+        height: 18rem;
+        width: 25rem;
+    }
+    
+    div.item-course-infos{
+        margin-top: 1rem;
+        padding: 0rem;
+    }
+    
+    div.item-course-infos > h1{
+        font-size: 3rem;
+    }
+
+}
